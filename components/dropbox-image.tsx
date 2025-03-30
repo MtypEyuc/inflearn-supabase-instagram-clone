@@ -1,3 +1,4 @@
+/*
 "use client";
 
 import { IconButton, Spinner } from "@material-tailwind/react";
@@ -18,7 +19,7 @@ export default function DropboxImage({ image }) {
 
   return (
     <div className="relative w-full flex flex-col gap-2 p-4 border border-gray-100 rounded-2xl shadow-md">
-      {/* Image */}
+      {/!* Image *!/}
       <div>
         <img
           src={getImageUrl(image.name)}
@@ -26,7 +27,7 @@ export default function DropboxImage({ image }) {
         />
       </div>
 
-      {/* FileName */}
+      {/!* FileName *!/}
       <div className="">{image.name}</div>
 
       <div className="absolute top-4 right-4">
@@ -46,3 +47,4 @@ export default function DropboxImage({ image }) {
     </div>
   );
 }
+*/

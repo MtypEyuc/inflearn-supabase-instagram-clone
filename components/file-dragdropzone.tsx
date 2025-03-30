@@ -1,3 +1,4 @@
+/*
 "use client";
 
 import { Button, Spinner } from "@material-tailwind/react";
@@ -51,3 +52,4 @@ export default function FileDragDropZone() {
     </div>
   );
 }
+*/
